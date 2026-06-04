@@ -1,18 +1,17 @@
 // Auto-generated — do not edit manually.
-// Updated by Claude each time inventory changes.
+// Sale Value shown if set, otherwise falls back to Game Value.
 
 const INVENTORY = [
-  { name: "STAGG",               price: 150,  qty: 1  },
-  { name: "EHT BP Batch 4",      price: 500,  qty: 1  },
-  { name: "EHT SiB",             price: 150,  qty: 3  },
-  { name: "EHT SB",              price: 75,   qty: 1  },
-  { name: "WSiB",                price: 240,  qty: 2  },
-  { name: "CYPB",                price: 350,  qty: 2  },
-  { name: "WFP SP",              price: 180,  qty: 1  },
-  { name: "W12 1L",              price: 180,  qty: 1  },
-  { name: "OWA",                 price: 110,  qty: 2  },
-  { name: "ER12",                price: 220,  qty: 2  },
-  { name: "Blanton's SFTB",      price: 260,  qty: 4  },
-  { name: "Blanton's Gold SP",   price: 220,  qty: 0  },
-  { name: "Blanton's Gold",      price: 190,  qty: 2  },
+  { name: "STAGG",               gameValue: 150,  saleValue: null, qty: 1  },
+  { name: "EHT BP Batch 4",      gameValue: 500,  saleValue: null, qty: 1  },
+  { name: "EHT SiB",             gameValue: 150,  saleValue: null, qty: 3  },
+  { name: "EHT SB",              gameValue: 75,   saleValue: null, qty: 1  },
+  { name: "ER12",                gameValue: 220,  saleValue: null, qty: 2  },
+  { name: "WSiB",                gameValue: 240,  saleValue: null, qty: 2  },
+  { name: "CYPB",                gameValue: 350,  saleValue: 320,  qty: 2  },
+  { name: "WFP SP",              gameValue: 180,  saleValue: null, qty: 1  },
+  { name: "W12 1L",              gameValue: 180,  saleValue: null, qty: 1  },
+  { name: "OWA",                 gameValue: 110,  saleValue: null, qty: 2  },
+  { name: "Blanton's SFTB",      gameValue: 260,  saleValue: null, qty: 4  },
+  { name: "Blanton's Gold",      gameValue: 190,  saleValue: null, qty: 2  },
 ];
